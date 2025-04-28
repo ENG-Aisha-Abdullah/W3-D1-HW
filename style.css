@@ -1,0 +1,138 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Canva Sans, Helvetica Neue, Roboto, -apple-system, blinkmacsystemfont, sans-serif;
+}
+.nav-bar{
+    background-image: url(nav-bar-img.png);
+    height: 25rem;
+    padding: 1.5rem;
+    background-size: cover;
+    background-repeat:round;
+}
+.nav-bar-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.nav-logo img{
+   width: 5rem;
+}
+.header-nav-bar{
+    direction: rtl;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: min-content;
+}
+.nav-ioin-btn{
+    height: 2rem;
+    background:#f7f7f7;
+    border-color:#747474;
+    border-radius: 12px;
+    height: 50px;
+    font-size: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: none;
+}
+.header-btn{
+    color: #f7f7f7;
+    font-size:x-large;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.nav-license-btn{
+    color: #f7f7f7;
+    font-size:x-large;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.nav-discover-btn{
+    color: #f7f7f7;
+    font-size:x-large;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.nav-discover-btn img{
+    width: 15px;
+}
+.nav-bar-heade2 {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+.nav-bar-heade2 p {
+   font-size: 2.2rem;
+   color: #f7f7f7;
+   width: 70%;;
+   margin: 2% 2%;
+   width: 50%;  
+}
+.nav-bar-heade2 input {
+    display: flex;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 8px 12px;
+    width: 50%;  
+}
+.search-input {
+    border: none;
+    font-size: 18px;
+    color: #555;
+}
+.card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-areas: 
+        "items1 items2 items3"
+        "items1 items2 items3"
+        "items1 items2 items4"
+        "items1 items6 items4"
+        "items5 items6 items4"
+        "items5 items8 items4"
+        "items7 items8 items9"
+        "items7 items8 items9"
+        "items7 items8 items9";
+    gap: 1rem;
+    padding: 2%;
+}
+.items1{
+    grid-area: items1;
+}
+.items2{
+    grid-area: items2;
+}
+.items3{
+    grid-area: items3;
+}
+.items4{
+    grid-area: items4;
+}
+.items5{
+    grid-area: items5;
+}
+.items6{
+    grid-area: items6;
+}
+.items7{
+    grid-area: items7;
+}
+.items8{
+    grid-area: items8;
+}
+.items9{
+    grid-area: items9;
+}
+.card img {
+    width: 100%;
+    height: 100%;
+    background-position: cover;
+    border-radius: 12px;
+}
